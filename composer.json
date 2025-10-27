@@ -1,0 +1,13 @@
+{
+    "name": "ali/design-pattern",
+    "description": "Code expamples for Design Patterns in PHP",
+    "autoload": {
+        "psr-4": {
+            "Ali\\DesignPattern\\": "src/",
+            "Creational\\": "src/Creational/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}

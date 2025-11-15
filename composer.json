@@ -10,5 +10,19 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^11.5"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "Packages/BasicAuthLib"
+        },
+        {
+            "type": "path",
+            "url": "Packages/TokenAuthLib"
+        }
+    ],
+    "require": {
+        "ali.ahmed/token-auth-lib": "*@dev",
+        "ali.ahmed/basic-auth-lib": "*@dev"
     }
 }

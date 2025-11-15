@@ -4,7 +4,8 @@
     "autoload": {
         "psr-4": {
             "Ali\\DesignPattern\\": "src/",
-            "Creational\\": "src/Creational/"
+            "Creational\\": "src/Creational/",
+            "Structural\\": "src/Structural/"
         }
     },
     "require-dev": {
